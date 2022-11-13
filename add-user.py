@@ -8,7 +8,7 @@ from_email = ""
 pagerduty_team_id = ""
 userObjects = []
 
-with open("users.csv", newline='') as csvUsers:
+with open("userslist.csv", newline='') as csvUsers:
     fileReader = csv.reader(csvUsers)
     for userData in fileReader:
         name = userData[0]
